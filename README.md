@@ -11,4 +11,7 @@ If you need to migrate groups and group memberships from Active Directory to Azu
 * Create a SharePoint Migration Tool permissions mapping file 
 
 SPMTHomeDriveToOneDriveImport.pdf  
-Procedure and scripts to create SPMT mapping file to migrate home drives to OneDrive 
+Procedure and scripts to create SPMT mapping file to migrate home drives to OneDrive  
+  
+Test-AzureDomain.ps1  
+Short function to test if a domain is already in use in an existing Azure tenant. Return tenant ID if it is.
